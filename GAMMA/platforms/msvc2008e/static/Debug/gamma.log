@@ -1,0 +1,554 @@
+﻿  SingleTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SectTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ModTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GamTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ConstTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ClassTest.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Pulse.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulWaveform.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulWALTZ.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulTrainSCyc.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulTrain.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulSupCycle.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulSinc.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulMLEV.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulGauss.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulGARP.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulDANTE.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulCycle.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulComposite.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulCHIRP.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  PulAuxil.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinMap.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiWBR.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiSys.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiSOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiLib.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiLOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiIPul.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiHam.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiHSLib.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiExch.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MultiAux.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ExProcess.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  row_vector.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  n_matrix.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  matrix.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\matrix\matrix.cc(1206): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  i_matrix.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  h_matrix.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  d_matrix.cc
+c:\users\冀筱\documents\research\gamma\src\matrix\d_matrix.cc : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  complex.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  col_vector.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  _matrix.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MxModBas.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  TrnsTable1D.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  RelaxBas.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Quaternion.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MutExch.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  EAngles.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BaseDecomp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  nmr_tensor.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  coord_vec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  coord.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  WindowFct.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Wigner.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinT.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SphHarmic.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpaceT.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Lorentzian.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Exponential.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ExProcessM.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  sys_dynamic.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SuperOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  LSprop.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  LSanalyze.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  LSacquire.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  LSAux.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  DensOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SolidSys.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntRank2T.cc
+c:\users\冀筱\documents\research\gamma\src\intrank2\intrank2t.cc : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntRank2ACmp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntRank2A.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntRank2.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntQuadVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntQuad.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntHFVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntHF.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntGVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntG.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntDipVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntDip.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  IntCSAVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  IntCSA.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HShiftAnis.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HQuadrup.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HElectronG.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HDipolar.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMap.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  CompRot.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  CartMx2A.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinSystem.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinSys.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinOpSng.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinOpRot.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinOpCmp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SpinOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulseShp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulseS.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  PulseI.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSprop.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSham.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  HSdetect.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSdecomp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSauxil.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSanalyze.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  HSacquire.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GenOpRep.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GenOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Basis.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  sys_gradz.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GrdPulses.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GrdEvolve.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GrdDeprec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GrdAcquire.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Gradients2.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  XWinSpec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinspec.cc(237): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinspec.cc(321): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinspec.cc(348): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinspec.cc(483): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinspec.cc(576): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+  XWinSer.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinser.cc(233): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinser.cc(296): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinser.cc(727): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+  XWinProcs.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWinProcPar.cc
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWinProc2s.cc
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWinPSet.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  正在生成代码...
+  正在编译...
+  XWinOutd.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  XWinMeta.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2059: 语法错误:“字符串”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2238: 意外的标记位于“;”之前
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(286): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(299): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(316): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(734): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(751): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(768): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(785): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(802): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(819): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(845): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(864): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(883): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(902): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(947): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(969): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(991): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(1036): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(1042): error C3863: 不可指定数组类型“const wchar_t [59]”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(1353): error C2228: “.length”的左边必须有类/结构/联合
+  c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.cc(1353): note: 类型是“const wchar_t [59]”
+  XWinFid.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinfid.cc(234): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinfid.cc(303): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinfid.cc(322): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinfid.cc(438): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinfid.cc(506): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+  XWinAcqus.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWinAcqu2s.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWinAcqPar.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWin2D.cc
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2059: 语法错误:“字符串”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2238: 意外的标记位于“;”之前
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  XWin1D.cc
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2059: 语法错误:“字符串”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2238: 意外的标记位于“;”之前
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  MatLabFile.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(211): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(275): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(310): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(361): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(371): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(380): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(386): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(404): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(414): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(423): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(430): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(481): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(487): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(492): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(501): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(514): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(550): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(592): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\matlabfile.cc(639): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  ML5Tag.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5SubE.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5Reals.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5Imags.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5Hdr.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5DElem.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\ml5delem.cc(128): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\ml5delem.cc(168): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\ml5delem.cc(178): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  ML5DA.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5AN.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML5AF.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+  ML4Tag.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): note: 参见“int_fast16_t”的声明
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): note: 参见“uint_fast16_t”的声明
+  ML4DElem.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): note: 参见“int_fast16_t”的声明
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\ml4delem.cc(216): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+c:\users\冀筱\documents\research\gamma\src\gamio\ml4delem.cc(248): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  GgnuplotSph.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  GgnuplotC.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Ggnuplot1D.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Ggnuplot.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Gascii.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMakerSph.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMakerS.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMakerP.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMakerM.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMakerC.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FrameMaker.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BinIOBase.cc
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): note: 参见“int_fast16_t”的声明
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): note: 参见“uint_fast16_t”的声明
+  FloqOp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  FloqAcq.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Floq2Op.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  CubicIonData.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  CubicIon.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  block_2D.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  block_1D.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  MagVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  DetVec.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochTraj.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochSys.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochR.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochMx.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochM.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochK.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochB.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  BlochAcq.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Bloch.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  StringCut.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  SinglePar.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  ParamSet.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  Isotope.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxanalyze.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxRand.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxRF.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxQCSA.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxProp.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxNMR.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...
+  正在编译...
+  relaxJ.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxExch.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxDip.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxDQuad.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxDCSA.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxCSA.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  relaxBWRexch.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+  正在生成代码...

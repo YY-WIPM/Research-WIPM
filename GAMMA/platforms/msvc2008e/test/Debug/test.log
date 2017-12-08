@@ -1,0 +1,17 @@
+﻿  testsuite.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2059: 语法错误:“字符串”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2238: 意外的标记位于“;”之前
+  runtests.cc
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\math.h(963): error C2062: 意外的类型“double”
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(105): error C2371: “int_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(36): note: 参见“int_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\ms_stdint.h(109): error C2371: “uint_fast16_t”: 重定义；不同的基类型
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\stdint.h(40): note: 参见“uint_fast16_t”的声明
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2059: 语法错误:“字符串”
+c:\users\冀筱\documents\research\gamma\src\gamio\xwinmeta.h(89): error C2238: 意外的标记位于“;”之前
+  正在生成代码...
