@@ -133,7 +133,9 @@ if __name__ == "__main__":
 	exp_no = 1211  
 	proc_no = 1
 	test_dataset = Proc2dDataset(dataset_dir_path, exp_no, proc_no)
-	
+	a = test_dataset.getSer()
+	plt.plot(a)
+	plt.show()
 
 	
 	
