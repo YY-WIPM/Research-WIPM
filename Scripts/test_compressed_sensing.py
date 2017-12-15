@@ -168,21 +168,23 @@ class PseudoSignal(object):
 
 class OMP(object):
   """
-  rand_samp_sig: the signal from compressed sensing
-  rand_samp_mat: the matrix of compressed sensing
-  non_zero_sparsity: number of non-zero entries in the original signal.
+  y(Nx1): the signal from compressed sensing
+  Mat(MxN): the matrix of compressed sensing
+  K: number of non-zero entries in the original signal (sadly it is somehow deterministic knowledge...).
   
-  reconstruct_sig: the signal reconstructed from l_1 optimisation 
+  reconstruct_sig(Mx1): the signal reconstructed from l_1 optimisation 
   residual: residual..
   
   """
   def __init__(self, y, Mat, K):
+
+    self.reconstruct_sig, self.residual = self.optL1(y, Mat, K)
+
+  def optL1(self, y, Mat, K):
     iteration = K
     M,N = np.shape(Mat)
-    self.theta = np.zeros(N)
-
-  # def optL1(self, y, Mat, K):
     y = np.array([y]).T
+    theta = np.zeros(N)
     A = Mat
     At = np.zeros((M,iteration))
     pos_num = np.zeros(iteration)
@@ -195,9 +197,7 @@ class OMP(object):
       pos = np.argpartition(abs_product.flatten(),-1)[-1:]
       # Update the index of mas abs inner product and the set of column vectors that gives max abs inner products.
       pos_num[iter] = pos
-      val = np.max(product)
-      
-  
+
       # Set the column of max abs inner product to zero 
       for ii in range(M):
         At[ii,iter] = A[ii,pos]
@@ -210,8 +210,8 @@ class OMP(object):
       # print("val=",val_num,'\n', "pos=",pos_num,'\n',"theta_ls=",theta_ls)
       # res = y-np.dot(At[:,iter:iter+1], theta_ls)
       
-    
-    self.theta[[int(i) for i in pos_num]]=theta_ls.flatten()
+    theta[[int(i) for i in pos_num]]=theta_ls.flatten()
+    return theta, np.linalg.norm(res)
 
   
   def calLeastSquare(self, Mat, y):
@@ -225,6 +225,31 @@ class OMP(object):
     return temp
     
 
+class SAMP(object):
+  """
+  y(Nx1): the signal from compressed sensing
+  Mat(MxN): the matrix of compressed sensing
+  S: steplength of increment
+  
+  reconstruct_sig(Mx1): the signal reconstructed from l_1 optimisation 
+  residual: residual..
+  """
+  def __init__(self, y, Mat, S=1):
+    M,N = np.shape(Mat)
+    y = np.array([y]).T
+    theta = np.zeros(N)
+    A = Mat
+    At = np.zeros((M,M*S))
+    pos_num = np.zeros(M*S)
+    res = y
+    L = S
+    for t in [1]:
+      abs_product = np.abs(np.matmul(A.T, res))
+      
+      
+
+
+
 if __name__ == "__main__":
   dataset_dir_path = 'C:/Bruker/TopSpin3.5.b.91pl7/examdata/NMR Data/XJ_LLS_20171130/'
   exp_no = 201
@@ -233,20 +258,20 @@ if __name__ == "__main__":
   # test_dataset.plotFid()
   # test_dataset.plotProcSpec()
   
-  M = 1024+512 # length of measured signal
+  M = 1024*1.5# length of measured signal
   N = 4096 # length of real signal
   
-  for K in [1,10,25,50,100,150,200,250]:
+  for K in [1,8,16,64,128,192,256,320,384,512,800,1024]:
   
     test_RS = RandCompSensing(test_dataset, sparsity=M/N)
     
     foo = OMP(test_RS.g_measured_sig, test_RS.gaussian_RSM,K)
   
-    a = foo.theta#
+    a = foo.reconstruct_sig#
     b = test_RS.original_sig
     plt.plot(b-a)
-    
-    print(K, np.linalg.norm(a-b))
+    res = foo.residual
+    print(K, np.linalg.norm(a-b), res )
     
   plt.show()
 
