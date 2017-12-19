@@ -1,13 +1,7 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-
-def calLeastSqure(Mat,y):
-  temp = np.matmul(Mat.T, Mat)
-  temp = np.linalg.pinv(temp)
-  temp = temp * Mat.T
-  temp = np.matmul(temp, y)
-  return temp
+from sklearn.linear_model import ElasticNet
 
 class Dataset1D(object):
   """
@@ -235,6 +229,9 @@ class SAMP(object):
   residual: residual..
   """
   def __init__(self, y, Mat, S=1):
+    self.reconstruct_sig, self.residual = self.optL1(y, Mat, S)
+    
+  def optL1(self, y, Mat, S):
     M,N = np.shape(Mat)
     y = np.array([y]).T
     theta = np.zeros(N)
@@ -243,9 +240,28 @@ class SAMP(object):
     pos_num = np.zeros(M*S)
     res = y
     L = S
-    for t in [1]:
+    for t in range(N):
       abs_product = np.abs(np.matmul(A.T, res))
-      
+      s_k = np.argpartition(abs_product.flatten(),-1)[-1:]
+      pos_num[t] = s_k
+      At[:,t] = A[:,s_k].flatten()
+      A[:,s_k] = np.array([np.zeros(M)]).T
+      theta_ls = self.calLeastSquare(At[:,:L],y)
+      res_new = y - np.dot(At[:,:L], theta_ls)
+      if np.linalg.norm(res_new) > np.linalg.norm(res): 
+          print(L)
+          break
+      else: 
+          res= res_new
+          L = L+S
+    for i in range(len(theta_ls)):
+      theta[int(pos_num[i])]=theta_ls.flatten()[i]
+    return theta, np.linalg.norm(res_new)
+
+  def calLeastSquare(self, Mat, y, alpha=.1,l1_ratio=1):
+    reg = ElasticNet(alpha,l1_ratio)
+    temp = np.asarray([reg.fit(Mat,y).coef_]).T
+    return temp
       
 
 
@@ -261,7 +277,8 @@ if __name__ == "__main__":
   M = 1024*1.5# length of measured signal
   N = 4096 # length of real signal
   
-  for K in [1,8,16,64,128,192,256,320,384,512,800,1024]:
+  """
+  for K in [160]:
   
     test_RS = RandCompSensing(test_dataset, sparsity=M/N)
     
@@ -272,6 +289,21 @@ if __name__ == "__main__":
     plt.plot(b-a)
     res = foo.residual
     print(K, np.linalg.norm(a-b), res )
-    
   plt.show()
+  """
+  test_RS = RandCompSensing(test_dataset, sparsity=M/N)
+  foo = OMP(test_RS.g_measured_sig, test_RS.gaussian_RSM,512)
+  
+  a = foo.reconstruct_sig#
+  bar = SAMP(test_RS.g_measured_sig, test_RS.gaussian_RSM)
+  c = bar.reconstruct_sig#
+  b = test_RS.original_sig
+  plt.plot(a,color='black')
+  plt.plot(b,color='r')
+  plt.plot(c)
+  plt.plot(b-c)
+  res = bar.residual
+  print(np.linalg.norm(c-b), res )
+    
+
 
