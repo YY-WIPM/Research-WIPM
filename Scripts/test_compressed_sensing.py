@@ -107,22 +107,42 @@ class RandCompSensing(object):
 
   """
 
-  def __init__(self, original_dataset, sparsity=0.125):
+  def __init__(self, original_dataset, sparsity=0.125,sparse_mode = 'b'):
     self.original_sig = original_dataset.proc_spec
     self.len_original = len(original_dataset.proc_spec)
     self.sparsity = sparsity
-    self.len_measure = np.floor(self.len_original*self.sparsity)
+    self.len_measure = int(np.floor(self.len_original*self.sparsity))
+    
+    
     self.gaussian_RSM = self.mkGaussianRSM()
     self.g_measured_sig = np.dot(self.gaussian_RSM,original_dataset.proc_spec)
-
+    self.bernoulli_RSM = self.mkBernoulliRSM()
+    self.b_measured_sig = np.dot(self.bernoulli_RSM,original_dataset.proc_spec)
+    self.sparse_RSM = self.mkSparseRSM()
+    self.s_measured_sig = np.dot(self.sparse_RSM,original_dataset.proc_spec)
+    
+  def chooseRSM(self, sparse_mode):
+    try:
+      spase_mode in ['g','b','s']
+      
+    break
+  
+  
   def mkGaussianRSM(self):
-    temp = np.random.normal(0, 1.0, int(self.len_measure*self.len_original))
+    norm_factor = np.sqrt(self.len_original)
+    temp = np.random.normal(0, 1.0, int(self.len_measure*self.len_original))/norm_factor
     temp = np.reshape(temp, (-1, self.len_original))
     return temp
 
   def mkBernoulliRSM(self):
-    temp = np.random.binomial(1,0.5, self.len_measure*self.len_original)
+    norm_factor = np.sqrt(self.len_original)
+    temp = np.random.binomial(1,0.001, self.len_measure*self.len_original)/norm_factor
     temp = np.reshape(temp, (-1, self.len_original))
+    return temp
+  
+  def mkSparseRSM(self):
+    norm_factor = np.sqrt(self.len_original)
+    temp = np.array([np.random.binomial(1,0.1,self.len_measure)/norm_factor,]*self.len_original).T
     return temp
   
 class NormalSignal(object):
@@ -240,7 +260,7 @@ class SAMP(object):
     pos_num = np.zeros(M*S)
     res = y
     L = S
-    for t in range(N):
+    for t in range(M):
       abs_product = np.abs(np.matmul(A.T, res))
       s_k = np.argpartition(abs_product.flatten(),-1)[-1:]
       pos_num[t] = s_k
@@ -248,8 +268,8 @@ class SAMP(object):
       A[:,s_k] = np.array([np.zeros(M)]).T
       theta_ls = self.calLeastSquare(At[:,:L],y)
       res_new = y - np.dot(At[:,:L], theta_ls)
-      if np.linalg.norm(res_new) > np.linalg.norm(res): 
-          print(L)
+      if np.linalg.norm(res_new) < 5e3: 
+          print(L, np.linalg.norm(res_new))
           break
       else: 
           res= res_new
@@ -292,18 +312,19 @@ if __name__ == "__main__":
   plt.show()
   """
   test_RS = RandCompSensing(test_dataset, sparsity=M/N)
-  foo = OMP(test_RS.g_measured_sig, test_RS.gaussian_RSM,512)
+  plt.plot(test_RS.b_measured_sig,color="red", alpha = 0.7,linestyle='dotted')
+  plt.show()
   
-  a = foo.reconstruct_sig#
-  bar = SAMP(test_RS.g_measured_sig, test_RS.gaussian_RSM)
-  c = bar.reconstruct_sig#
-  b = test_RS.original_sig
-  plt.plot(a,color='black')
-  plt.plot(b,color='r')
-  plt.plot(c)
-  plt.plot(b-c)
-  res = bar.residual
-  print(np.linalg.norm(c-b), res )
-    
+  
+  #foo = SAMP(test_RS.g_measured_sig, test_RS.gaussian_RSM,1)
+  bar = SAMP(test_RS.b_measured_sig, test_RS.bernoulli_RSM,1)
+  
+  
+  plt.figure(figsize=(14,8))
+  
+  # plt.plot(foo.reconstruct_sig,color="red", alpha = 0.7)
+  plt.plot(bar.reconstruct_sig,color="blue", alpha = 0.9)
+  plt.plot(test_RS.original_sig,color="red", alpha = 0.7,linestyle='dotted')
+  plt.show()
 
 
